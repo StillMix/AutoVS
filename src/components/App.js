@@ -72,12 +72,9 @@ function register(reg) {
     <>
       
       <Routes>
-      <Route exact path="/" element={loggedIn ? <Navigate to="/main" /> : <Navigate to="/signin" />} />
+      <Route path="/" element={loggedIn ? <Main api={api} /> : <SignIn handleSubmit={login}/>} />
        
-
-        <Route path="/signin" element={<Login handleSubmit={login}/>} />
         <Route path="/registration" element={<Registration handleSubmit={register} />} />
-        <Route path="/main" element={<Main api={api}  />} />
       </Routes>
     </>
   );
