@@ -1,0 +1,129 @@
+.bodyPopup {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.popup__open {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.popup {
+  position: relative;
+  padding-left: 16px;
+  border-radius: 10px;
+  width: 719px;
+  height: 506px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
+.popup__close {
+  margin-left: -35px;
+  cursor: pointer;
+}
+
+.popup__close:hover {
+  opacity: 0.8;
+}
+.popup__title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "Jost", "Arial", sans-serif;
+  margin-bottom: 10px;
+}
+
+.popup__container {
+  display: flex;
+}
+.popup__addImg {
+  display: none; /* Скрыть исходный input */
+}
+
+.inputLabel {
+  display: inline-block;
+  width: 321px;
+  height: 215px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.addImg {
+  width: 38px; /* Устанавливаем размер изображения */
+  height: 38px; /* Устанавливаем размер изображения */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inputLabel:hover {
+  opacity: 0.8;
+}
+
+.uploadText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Jost", "Arial", sans-serif;
+  position: absolute;
+  top: calc(50% + 30px); /* Положение текста на 5 пикселей ниже центра */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popup_containerSettings {
+  width: 70%;
+  margin-left: 15px;
+}
+.popup__input {
+  color: #000000;
+  width: 358px;
+  padding: 0 0 13px 0;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.popup_inputDop {
+  margin-top: 10px;
+  width: 381px;
+  height: 87px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  overflow-wrap: break-word; /* Перенос слов при достижении конца блока */
+  word-wrap: break-word; /* Поддержка старых браузеров */
+  overflow: hidden; /* Обрезать текст, который не помещается */
+}
+
+.popup__btn {
+  position: absolute;
+  bottom: 21px;
+  right: 27px;
+  width: 129px;
+  height: 27px;
+}

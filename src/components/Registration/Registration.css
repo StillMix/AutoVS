@@ -1,0 +1,64 @@
+.title {
+  margin: 36px auto 0 auto;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.registration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 448px;
+  height: 429px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  text-align: center;
+  padding: 0;
+}
+
+.registration__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 45px auto 0 auto;
+}
+
+.registration__input {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 339px;
+  padding: 0 0 6px 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  outline: none;
+  margin: 23px auto 0 auto;
+}
+
+.registration__input:first-of-type {
+  margin-top: 44px;
+}
+
+.registration__btn {
+  cursor: pointer;
+  background: #0b0b0b;
+  border-radius: 57px;
+  width: 255px;
+  height: 43px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin: 50px auto 0 auto;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+

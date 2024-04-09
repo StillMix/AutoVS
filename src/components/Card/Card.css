@@ -1,0 +1,58 @@
+.card {
+    width: 321px;
+    position: relative; 
+  }
+  
+  .card__img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative; 
+    z-index: -1; 
+  }
+  
+  .card__container {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    margin-top: -16px;
+    border-radius: 10px;
+    position: relative; 
+    z-index: 1; 
+    padding-top: 11px;
+    padding-left: 16px;
+    padding-bottom: 52px;
+  }
+  
+  .card__container_nameCar{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .card__container_pay{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .card__container_prod{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 0.5);
+  }
+  .card__container_marka{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 0.5);
+  }
+  .card__container_model{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 0.5);
+  }
+  .card__container_status{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 0.5);
+  }

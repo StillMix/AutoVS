@@ -1,0 +1,45 @@
+.header{
+   width: 1210px;
+   margin: 22px auto 0 auto;
+   display: flex;
+}
+
+.header__logo{
+    margin: 0;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.header__btn{
+    width: 255px;
+    height: 43px;
+    margin: 0 0 0 auto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.Main{
+    width: 1210px;
+    margin: 14px auto 0 auto;
+}
+
+.ads__header{
+    display: flex;
+    width: 1210px;
+    align-items: center;
+}
+
+.ads__headerImg{
+height: 33.75px;
+}
+
+.ads__headerTitle{
+    margin: 0 auto 0 16px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 58px;
+}
+
+

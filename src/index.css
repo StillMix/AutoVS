@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p{
+ margin: 0; 
+ font-family: "Jost", "Arial", sans-serif;
+ font-style: normal;
+}
+
+input{
+  margin: 0; 
+  font-family: "Jost", "Arial", sans-serif;
+  font-style: normal;
+}
+
+button{
+  margin: 0; 
+  font-family: "Jost", "Arial", sans-serif;
+  font-style: normal; 
+  cursor: pointer;
+  background: #0b0b0b;
+  border-radius: 57px;
+  font-weight: normal;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+button:hover{
+  opacity: 0.8;
+}
